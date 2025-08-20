@@ -1,0 +1,39 @@
+.container{
+    position: relative;
+    display:grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    scale:2;
+}
+
+.guessedLetters{
+    margin-inline: 20px;
+    margin-top: 0px;
+    text-align: center;
+    width :116px;
+    border-style: solid;
+    height:131px;
+    letter-spacing: 5px;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    
+}
+
+.displayWord{
+  margin-top: 10vw;
+  font-size: 3vw;
+  letter-spacing: 2vw;
+}
+.hangmen{
+  width: 116px;
+  height:131px;
+  background-image: url('../assets/hangman.jpg');
+  background-repeat: no-repeat;
+  background-size: calc(var(--cols) * 100%) auto;
+  background-position: calc(var(--frame-x)* -116px) calc(var(--frame-y) * -131px);
+  border-style: solid;
+}
+
+
